@@ -26,10 +26,11 @@ npm install react-ui-tree --save
 
 ```javascript
 <Tree
-  paddingLeft={20}              // left padding for children nodes in pixels
-  tree={this.state.tree}        // tree object
-  onChange={this.handleChange}  // onChange(tree) tree object changed
-  renderNode={this.renderNode}  // renderNode(node) return react element
+  paddingLeft={20}                   // left padding for children nodes in pixels
+  tree={this.state.tree}             // tree object
+  onChange={this.handleChange}       // onChange(tree) tree object changed
+  onNodeDragged={this.onNodeDragged} // onNodeDragged(draggedNode, draggedNodeParent} tree objects (subtrees of main tree)
+  renderNode={this.renderNode}       // renderNode(node) return react element
 />
 
 // a sample tree object

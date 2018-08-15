@@ -1,6 +1,6 @@
 # react-ui-tree
 
-* Fork of [https://github.com/pqx/react-ui-tree](react-ui-tree repo)
+Fork of [https://github.com/pqx/react-ui-tree](https://github.com/pqx/react-ui-tree)
 
 [![Build Status](https://travis-ci.org/pqx/react-ui-tree.svg)](https://travis-ci.org/pqx/react-ui-tree)
 [![npm](https://img.shields.io/npm/v/react-ui-tree.svg)](https://www.npmjs.com/package/react-ui-tree)
